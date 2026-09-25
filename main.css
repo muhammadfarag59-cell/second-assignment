@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 1.6;
+
+  color: oklch(0.21 0.034 264.665);
+
+  text-align: center;
+}
+p {
+  color: oklch(0.446 0.03 256.802);
+}
+/* ================= HERO ================= */
+.btn {
+  background-color: black;
+
+  color: white;
+
+  border: solid;
+
+  font-weight: 500;
+
+  font-size: 18px;
+
+  line-height: 28px;
+
+  border-radius: 15px;
+
+  padding: 5px 10px;
+}
+.btn2 {
+  background-color: white;
+
+  color: black;
+
+  border: solid;
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  line-height: 28px;
+
+  border-radius: 15px;
+
+  padding: 5px 10px;
+}
+.left-content {
+  float: left;
+
+  width: 50%;
+}
+.right-img {
+  float: right;
+
+  width: 50%;
+}
+img {
+  max-width: 100%;
+
+  border-radius: 15px;
+}
+.container {
+  width: 80%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+}
+/* ================= CLEAR ================= */
+.clr {
+  clear: both;
+}
+/* ================= WHY CHOOSE US ================= */
+.card-1 {
+  background-color: #dbe9fe;
+
+  float: left;
+
+  width: 33.33%;
+
+  box-sizing: border-box;
+
+  padding: 20px;
+}
+.card-2 {
+  background-color: #d3f8e2;
+
+  float: left;
+
+  width: 33.33%;
+
+  box-sizing: border-box;
+
+  padding: 20px;
+}
+.card-3 {
+  background-color: #f0e3fb;
+
+  float: right;
+
+  width: 33.33%;
+
+  box-sizing: border-box;
+
+  padding: 20px;
+}
+/* ================= MORE THAN JUST A GYM ================= */
+.thirrd-section {
+  float: left;
+
+  width: 50%;
+}
+.all-class {
+  float: left;
+
+  width: 50%;
+
+  box-sizing: border-box;
+
+  padding: 20px;
+}
+/* ================= TESTIMONIALS ================= */
+.testimonials {
+  width: 80%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+}
+.testimonial-header {
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+.testimonial-card {
+  float: left;
+
+  width: 33.33%;
+
+  box-sizing: border-box;
+
+  padding: 20px;
+}
+.testimonial-card img {
+  width: 100px;
+
+  height: 100px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+.testimonial-card h3 {
+  margin-bottom: 5px;
+}
+.testimonial-card h4 {
+  margin-top: 0;
+}
+.testimonial-card blockquote {
+  margin: 15px 0;
+
+  font-style: italic;
+}
+/* ================= STATISTICS ================= */
+.statistics {
+  margin-top: 30px;
+}
+.stat {
+  float: left;
+
+  width: 25%;
+
+  box-sizing: border-box;
+}
+.stat h2 {
+  margin-bottom: 5px;
+}
+.stat p {
+  margin-top: 0;
+}
+/* ================= MEMBERSHIP ================= */
+.membership {
+  width: 80%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  margin-top: 50px;
+}
+.membership-header {
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+.form-row {
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-row .form-group {
+  float: left;
+
+  width: 50%;
+
+  box-sizing: border-box;
+
+  padding: 0 10px;
+}
+.form-group label {
+  display: block;
+
+  margin-bottom: 8px;
+
+  font-weight: 500;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 12px;
+
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+  font-family: inherit;
+
+  font-size: 16px;
+}
+.form-group textarea {
+  resize: vertical;
+}
+.submit-btn {
+  padding: 12px 25px;
+
+  background-color: black;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+/* ================= FOOTER ================= */
+.footer {
+  background-color: #111827;
+
+  color: white;
+
+  padding: 50px 10px 20px;
+
+  margin-top: 50px;
+}
+.footer-columns {
+  width: 80%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+}
+/*
+  First column = 50%
+  Second column = 25%
+  Third column = 25%
+
+  First column is double the width
+  of the other two columns.
+*/
+.footer-about {
+  float: left;
+
+  width: 50%;
+
+  box-sizing: border-box;
+
+  padding: 0 20px;
+}
+.footer-links {
+  float: left;
+
+  width: 25%;
+
+  box-sizing: border-box;
+
+  padding: 0 20px;
+}
+.footer-contact {
+  float: left;
+
+  width: 25%;
+
+  box-sizing: border-box;
+
+  padding: 0 20px;
+}
+/* Footer headings */
+.footer h2,
+.footer h3 {
+  color: white;
+}
+/* Footer paragraphs */
+.footer p {
+  color: #d1d5db;
+}
+/* Footer links */
+.footer a {
+  color: white;
+
+  text-decoration: none;
+
+  margin-bottom: 10px;
+}
+/* Quick Links */
+.footer-links a {
+  display: block;
+}
+/* Social Links */
+.social-links a {
+  display: inline-block;
+
+  margin-right: 15px;
+}
+
+/* Hover */
+.footer a:hover {
+  text-decoration: underline;
+}
+/* Copyright */
+.copyright {
+  text-align: center;
+
+  margin-top: 30px;
+
+  border-top: 1px solid #374151;
+
+  padding-top: 20px;
+}
+.copyright p {
+  margin: 0;
+}
