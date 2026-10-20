@@ -276,14 +276,6 @@ img {
 
   margin-right: auto;
 }
-/*
-  First column = 50%
-  Second column = 25%
-  Third column = 25%
-
-  First column is double the width
-  of the other two columns.
-*/
 .footer-about {
   float: left;
 
@@ -311,16 +303,13 @@ img {
 
   padding: 0 20px;
 }
-/* Footer headings */
 .footer h2,
 .footer h3 {
   color: white;
 }
-/* Footer paragraphs */
 .footer p {
   color: #d1d5db;
 }
-/* Footer links */
 .footer a {
   color: white;
 
@@ -328,22 +317,17 @@ img {
 
   margin-bottom: 10px;
 }
-/* Quick Links */
 .footer-links a {
   display: block;
 }
-/* Social Links */
 .social-links a {
   display: inline-block;
 
   margin-right: 15px;
 }
-
-/* Hover */
 .footer a:hover {
   text-decoration: underline;
 }
-/* Copyright */
 .copyright {
   text-align: center;
 
